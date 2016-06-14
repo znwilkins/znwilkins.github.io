@@ -1,0 +1,37 @@
+/* Reset the style */
+html, body {
+    margin:0;
+    padding:0;
+}
+/* For my name */
+em{
+  font-style: normal;
+  color:#306066;
+}
+/* For links */
+a{
+  transition: color 0.25s;
+  color:#306066;
+  text-decoration:none;
+}
+a:hover{
+    color:#89AEB3;
+}
+#header {
+    background: linear-gradient(#6DDCEA, rgba(255,0,0,0));
+    color:black;
+    padding:100px;
+    font-family: Helvetica, sans-serif;
+}
+
+#intro {
+    margin-left: 50px;
+    font-family: Helvetica, sans-serif;
+}
+#footer {
+    background: linear-gradient(rgba(255,0,0,0), PowderBlue, rgba(255,0,0,0));
+    color:black;
+    padding:100px;
+    font-family: Helvetica, sans-serif;
+
+}
