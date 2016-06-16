@@ -24,21 +24,38 @@ a:hover{
 .social:hover{
   opacity:1;
 }
+.code{
+  animation-name: onoff;
+  animation-duration: .6s;
+  animation-iteration-count: infinite;
+}
+@keyframes onoff {
+    0%   {opacity:0;}
+    50%  {opacity:1;}
+    100% {opacity:0;}
+}
 #header {
     background: linear-gradient(#6DDCEA, rgba(255,0,0,0));
     color:black;
     padding:100px;
     font-family: Helvetica, sans-serif;
 }
-
 #intro {
     margin-left: 50px;
     font-family: Helvetica, sans-serif;
 }
-#footer {
-    background: linear-gradient(rgba(255,0,0,0), #6DDCEA);
-    color:black;
-    padding:100px;
+#container {
+    margin-left: 50px;
     font-family: Helvetica, sans-serif;
-
+}
+#codeImg{
+  padding-left: 15px;
+    width: 465px;
+    float: left;
+}
+#codeText{
+    float: left;
+    font-size: 120%;
+    padding-right:100px;
+    padding-left: 35px;
 }
