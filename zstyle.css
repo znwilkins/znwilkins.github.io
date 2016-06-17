@@ -3,16 +3,14 @@ html, body {
     margin:0;
     padding:0;
 }
-/* For my name */
-em{
-  font-style: normal;
-  color:#306066;
-}
 /* For links */
 a{
   transition: color 0.25s;
   color:#306066;
   text-decoration:none;
+}
+h2, p{
+  font-family: Helvetica, sans-serif;
 }
 a:hover{
     color:#89AEB3;
@@ -28,6 +26,12 @@ a:hover{
   animation-name: onoff;
   animation-duration: .6s;
   animation-iteration-count: infinite;
+}
+.imgEx{
+  margin: auto;
+  margin-top: 100px;
+  display:block;
+  box-shadow: 10px 10px 60px #888888;
 }
 @keyframes onoff {
     0%   {opacity:0;}
@@ -47,6 +51,8 @@ a:hover{
 #container {
     margin-left: 50px;
     font-family: Helvetica, sans-serif;
+    padding-bottom: 50px;
+    height:250px;
 }
 #codeImg{
   padding-left: 15px;
@@ -58,4 +64,9 @@ a:hover{
     font-size: 120%;
     padding-right:100px;
     padding-left: 35px;
+}
+/* For my name */
+#name{
+  font-style: normal;
+  color:#306066;
 }
