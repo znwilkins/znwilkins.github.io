@@ -55,7 +55,6 @@ a:hover{
     height:250px;
 }
 #codeImg{
-  padding-left: 15px;
     width: 465px;
     float: left;
 }
@@ -63,7 +62,7 @@ a:hover{
     float: left;
     font-size: 120%;
     padding-right:100px;
-    padding-left: 35px;
+    padding-left: 100px;
 }
 /* For my name */
 #name{
