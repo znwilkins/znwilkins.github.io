@@ -1,41 +1,37 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <title>Zachary Wilkins: The Web Page</title>
-    <link rel="icon"
-          type="image/png"
-          href="favicon.png">
-    <link rel="stylesheet" type="text/css" href="zstyle.css">
+    <title>znwilkins</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:600|Roboto" rel="stylesheet">
+    <style>
+      .name {      
+        font-family: 'Montserrat', sans-serif;
+      }
+      .email {      
+        font-family: 'Roboto', sans-serif;
+      }
+      .social{
+        opacity:0.5;
+        transition: opacity .2s ease-in-out;
+        -webkit-transition:opacity .2s ease-in-out;
+        -moz-transition:opacity .2s ease-in-out;
+        -o-transition:opacity .2s ease-in-out;
+        font-size: 12px;
+        color: #8c8c8c;
+      }
+      .social:hover{
+        opacity:1;
+      }
+    </style>
   </head>
-  <div id="header">
-    <h1 style="float: right; font-size: 250%;">Welcome to <em id="name">Zachary Wilkins'</em> Webpage</h1>
-  </div>
-  <div id="intro">
-    <div style="float:left; width:500px;">
-      <img src="img/zach.png" alt="Pretty fly (I'm in comp sci)" style="width:400px;">
+  <body>
+    <div style="text-align:center; margin: 250px;">
+       <div class="name" style="font-size: 48px;">Zachary Wilkins</div>
+       <div class="email" style="font-size: 24px;">znwilkins AT gmail DOT com</div>
+       <div style="margin: 20px;">
+         <a class="social" href="https://www.linkedin.com/in/znwilkins" target="_blank">LinkedIn</a>
+         <a class="social" href="https://github.com/znwilkins" target="_blank">GitHub</a>
+       </div>
     </div>
-    <div style="font-size: 120%; float:left; padding-right:100px;">
-      <br><br><br>
-      Hi! Thanks for stopping by. The picture is sarcastic, I swear.<br><br>
-      I'm a third year <b>Computer Science</b> student at
-      <a href="http://www.dal.ca/faculty/computerscience.html"
-        style="text-decoration:none; font-weight:bold;" target="_blank">
-        Dalhousie University.
-      </a><br>
-      I enjoy creating things with technology.<br><br>
-      What would you like to learn more about?<br>
-      <p style="font-size: 200%;"><a href="code.html">Code</a> |
-      <a href="film.html">Film</a> | <a href="print.html">Print</a></p>
-    </div>
-  </div>
-  <div style="float: right; padding:100px;">
-    <a class="social" href="mailto:znwilkins@gmail.com">
-      <img src="img/mail.png" alt="Linked In Page" style="padding:15px;"></a>
-    <a class="social" href="https://www.linkedin.com/in/znwilkins" target="_blank">
-      <img src="img/in.png" alt="Linked In Page" style="padding:15px;"></a>
-    <a class="social" href="https://www.facebook.com/zachary.wilkins" target="_blank">
-      <img src="img/fb.png" alt="Facebook Page" style="padding:15px;"></a>
-    <a class="social" href="https://github.com/znwilkins" target="_blank">
-      <img src="img/gh.png" alt="Github Page" style="width:54px; padding:15px;"></a>
-  </div>
+  </body>
 </html>
+
